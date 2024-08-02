@@ -1,3 +1,3 @@
-# 2023-S1-US-18
+# 2023-S1-MX-42
 
-this project ....
+this project observes IK_Tau in CO and 13CO
