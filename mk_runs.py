@@ -10,7 +10,7 @@ project="2023-S1-MX-42"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on["IK_Tau"] = [ 120373, 120375, 120377,]
+on["IK_Tau"] = [ 120373, 120375, 120377, 120472, 120474, 120476, 120478, 120480, 120482,]
 
 
 #        common parameters per source on the first dryrun (run1a, run2a)
@@ -23,7 +23,7 @@ pars2["IK_Tau"] = "bank=0 pix_list=-13"
 
 #        common parameters per source on subsequent runs (run1c, run2c), e.g. bank=1 for WARES
 pars3 = {}
-pars3["IK_Tau"] = "bank=1"
+pars3["IK_Tau"] = "bank=1 pix_list=-13,15"
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, pars3, sys.argv)
