@@ -10,8 +10,9 @@ project="2023-S1-MX-42"
 
 #        obsnums per source (make it negative if not added to the final combination)
 on = {}
-on["IK_Tau"] = [ 120373, 120375, 120377, 120472, 120474, 120476, 120478, 120480, 120482,]
-
+on["IK_Tau"] = [ 120373, 120375, 120377, 120472, 120474, 120476, 120478, 120480, 120482, \
+                 120588, 120590, 120592, 120594, 120596, 120598, 120600, 120602, 120604, 120606, \
+	         120854, 120856, 120858, 120860, 120862,]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
