@@ -8,6 +8,8 @@ but 13CO a lot weaker (about 10-15x)
 In 12CO some additional (circumstellar) 
 emission around the central source can be seen.
 
+Note that "bad" beams vary a lot over the many days, those are recorded using pix_list= in the comments.txt file
+
 
 * https://arxiv.org/abs/1609.01904
 
