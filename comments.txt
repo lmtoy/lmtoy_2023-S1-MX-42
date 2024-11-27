@@ -3,3 +3,7 @@
 #123456__1       extra bad beam     # pix_list=-4,-13,14,15
 #123456__0       standard           # pix_list=-13
 #
+
+# confirm if __1 beam15 is bad
+122763__0        # pix_list=-8,13
+122763__1        # pix_list=-1,13
