@@ -26,19 +26,25 @@ on["IK_Tau"] = [ 120373, 120375, 120377, 120472, 120474, 120476, 120478, 120480,
                  123268, 123270, 123272, 123274,                                     # nov 25
                  123755, 123757, 123759, 123761, 123763, 123769, 123771, 123773, 123775, 123777,   # nov 29
                  124032, 124034, 124036, 124038, 124046, 124048, 124058,]                          # dec 1
-  
+
+on["W_Hya"] =  [ 125891, 125893, 125895, 125897, 125899, 125901, 125903, 125905,
+                 125911, 125913, 125915, 125917, 125919, 125921, 125923, 125925,]            # jan 30, 2025
+
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
 pars1["IK_Tau"] = "pix_list=-15 dv=50 dw=50 meta=0"
+pars1["W_Hya"]  = "pix_list=-15 dv=50 dw=50 meta=0"
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
 pars2 = {}
 pars2["IK_Tau"] = "bank=0 pix_list=-13"
+pars2["W_Hya"]  = "bank=0 pix_list=-13"
 
 #        common parameters per source on subsequent runs (run1c, run2c), e.g. bank=1 for WARES
 pars3 = {}
 pars3["IK_Tau"] = "bank=1 pix_list=-13,15"
+pars3["W_Hya"]  = "bank=1 pix_list=-13,15"
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, pars3, sys.argv)
