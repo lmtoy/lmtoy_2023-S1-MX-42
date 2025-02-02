@@ -43,7 +43,7 @@ pars1 = {}
 pars1["IK_Tau"] = "pix_list=-15 dv=50 dw=50"
 pars1["U_Ant"]  = "pix_list=-15 dv=50 dw=50"
 pars1["W_Hya"]  = "pix_list=-15 dv=50 dw=50"
-pars1["pnt"]    = "dv=50 dw=50"
+pars1["pnt"]    = "dv=40 dw=40 extent=90"
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
 pars2 = {}
