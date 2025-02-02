@@ -4,11 +4,12 @@ this project observes the MIRA variable IK_Tau
 in 12CO and 13CO, both lines detected,
 but 13CO a lot weaker (about 10-15x)
 
-
 In 12CO some additional (circumstellar) 
 emission around the central source can be seen.
 
 Note that "bad" beams vary a lot over the many days, those are recorded using pix_list= in the comments.txt file
+
+The focus during the Feb 2 night need to be carefully checked. The pointing obsnums were added to mk_runs.py
 
 
 * https://arxiv.org/abs/1609.01904
