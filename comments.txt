@@ -6,24 +6,31 @@
 
 # confirm if __1 beam15 is bad
 122763__0        # pix_list=-8,13
-122763__1        # pix_list=-1,13
+122763__1        # pix_list=-1,13,15
 
+120373_124058__0    12CO (1.5K)
+120373_124058__1    strong 13CO (0.1K)
+125891_126463__0    12CO (0.4K)
+125891_126463__1    weak 13CO (~0.02K)
+126254_126418__0    12CO (1.0K)
+126254_126418__1    weak 13CO (~0.05K)
 
 #
-125887  pointing
-125889  pointing
-125907  pointing
-125909  pointing
-125927  pointing
-125929  pointing
-126250  pointing
-126252  pointing
-126274  pointing
-126276  pointing
-126278  pointing
-126280  pointing
-126302  pointing
-126304  pointing
-126306  pointing
-126312  pointing
+
+125887 W-Hya pointing    6.96 6.16
+125889 W-Hya pointing    7.30 6.84
+125907 W-Hya pointing    7.83 6.06
+125909 W-Hya pointing    7.85 7.15
+125927 W-Hya pointing   10.15 6.48
+125929 W-Hya pointing   10.11 7.59
+126250 RW-Vel pointing   5.02 4.85
+126252 RW-Vel pointing   6.14 4.84
+126274 RW-Vel pointing   5.52 4.88
+126276 RW-Vel pointing   6.72 5.34
+126278 W-Hya pointing    6.23 5.42
+126280 W-Hya pointing    6.79 6.22
+126302 W-Hya pointing    8.31 5.76
+126304 W-Hya pointing    8.27 5.76
+126306 W-Hya pointing    7.95 5.63
+126312 W-Hya pointing    7.84 6.68
 

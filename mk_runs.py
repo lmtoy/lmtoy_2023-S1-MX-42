@@ -28,21 +28,36 @@ on["IK_Tau"] = [ 120373, 120375, 120377, 120472, 120474, 120476, 120478, 120480,
                  124032, 124034, 124036, 124038, 124046, 124048, 124058,]                          # dec 1
 
 on["U_Ant"] =  [ 126254, 126256, 126258, 126260, 126262, 126264, 126266, 126268,
-                 126270, 126272,]                                                           # feb 2
+                 126270, 126272,                                                            # feb 2
+                 126414, 126416, 126418,                                                   # feb 4
+	         126530, 126532, 126534,                                                   # feb 5
+                 126843, 126845, 126847,                                                   # feb 8
+                 126960, 126962, 126964, 126970, 126972, 126974, 126978, 126980, 126982,]  # feb 9
+
 
 on["W_Hya"] =  [ 125891, 125893, 125895, 125897, 125899, 125901, 125903, 125905,
                  125911, 125913, 125915, 125917, 125919, 125921, 125923, 125925,            # jan 30, 2025
                  126282, 126284, 126286, 126288, 126290, 126292, 126294, 126296,
-                 126298, 126300, 126308, 126310,]                                           # feb 2
+                 126298, 126300, 126308, 126310,                                            # feb 2
+                 126451, 126453, 126455, 126459, 126461, 126463,                            # feb 4
+                 126570, 126572, 126574, 126578, 126580, 126582,                            # feb 5
+                 126857, 126859, 126861, 126869, 126871, 126873, 126879, 126881, 126883,    # feb 8
+                 127014, 127016, 127018, 127024, 127026,]                                   # feb 9
+
+on["Y_Cen"] =  [ 127032,]
+
+
+
 
 on["pnt"]   = [  125887, 125889, 125907, 125909, 125927, 125929, 126250, 126252,
                  126274, 126276, 126278, 126280, 126302, 126304, 126306, 126312,]
 
 #        common parameters per source on the first dryrun (run1a, run2a)
 pars1 = {}
-pars1["IK_Tau"] = "pix_list=-15 dv=50 dw=50"
-pars1["U_Ant"]  = "pix_list=-15 dv=50 dw=50"
-pars1["W_Hya"]  = "pix_list=-15 dv=50 dw=50"
+pars1["IK_Tau"] = "pix_list=-15 dv=50 dw=50 extent=180"
+pars1["U_Ant"]  = "pix_list=-15 dv=50 dw=50 extent=180"
+pars1["W_Hya"]  = "pix_list=-15 dv=50 dw=50 extent=180"
+pars1["Y_Cen"]  = "pix_list=-15 dv=50 dw=50 extent=180"
 pars1["pnt"]    = "dv=40 dw=40 extent=90"
 
 #        common parameters per source on subsequent runs (run1b, run2b), e.g. bank=0 for WARES
@@ -50,12 +65,14 @@ pars2 = {}
 pars2["IK_Tau"] = "bank=0 pix_list=-13"
 pars2["U_Ant"]  = "bank=0 pix_list=-13"
 pars2["W_Hya"]  = "bank=0 pix_list=-13"
+pars2["Y_Cen"]  = "bank=0 pix_list=-13"
 
 #        common parameters per source on subsequent runs (run1c, run2c), e.g. bank=1 for WARES
 pars3 = {}
 pars3["IK_Tau"] = "bank=1 pix_list=-13,15"
 pars3["U_Ant"]  = "bank=1 pix_list=-13,15"
 pars3["W_Hya"]  = "bank=1 pix_list=-13,15"
+pars3["Y_Cen"]  = "bank=1 pix_list=-13,15"
 
 if __name__ == '__main__':    
     runs.mk_runs(project, on, pars1, pars2, pars3, sys.argv)
